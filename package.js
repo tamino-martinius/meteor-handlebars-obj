@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('METEOR@0.9.0');
   api.use([
-    'mrt:obj',
+    'mrt:obj@1.0.0',
     'coffeescript@1.0.17',
     'standard-app-packages'
   ], 'client');
